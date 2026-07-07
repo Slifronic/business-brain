@@ -1,6 +1,6 @@
-# Business Brain — Operating Manual
+# Second Brain — Operating Manual
 
-This folder is the business. You (the AI agent) are the operator. Read this file first, every session.
+This folder is Bryan Vo's personal operating system: it serves him as an individual and every project he pursues (the flagship is Sycamore, in `projects/sycamore/`). You (the AI agent) are the operator. Read this file first, every session.
 
 ## Architecture: DOE
 
@@ -14,11 +14,11 @@ The system separates into three layers. Respect the boundaries.
 
 | Folder | Purpose |
 |---|---|
-| `context/` | Who we are: identity, voice, values, owner background |
+| `context/` | Who Bryan is: identity, voice, values, background |
 | `directives/` | SOPs: one markdown file per workflow |
 | `execution/` | Scripts the SOPs call for deterministic steps |
 | `skills/` | Deep domain expertise, extracted from the best source material |
-| `clients/` | One folder per client: profile, rules, preferences, history |
+| `projects/` | One folder per project: profile, history (and rules/preferences when needed) |
 | `brain/` | Dated, wiki-linked notes: decisions, notes, references, metrics, ideas |
 | `sources/` | Raw exports (transcripts, Slack, email) the brain is mined from |
 | `.tmp/` | Scratch space for drafts. Never committed. |
@@ -27,10 +27,10 @@ The system separates into three layers. Respect the boundaries.
 
 Before any task, load in this order:
 
-1. `context/company.md` — always first (who we are)
+1. `context/owner.md` — always first (who Bryan is)
 2. `context/core_values.md` — always (how we operate; check work against it)
 3. `context/brand_voice.md` — for any content creation
-4. `clients/{name}/*.md` — for client-specific work
+4. `projects/{name}/*.md` — for project-specific work
 5. `skills/` relevant files — domain expertise for the task
 6. `directives/` the matching SOP — the workflow itself
 

@@ -1,6 +1,6 @@
 # Brand Voice
 
-_Last updated: 2026-07-07. STATUS: PROPOSAL — not yet confirmed by the founder. The brain dump contained no voice guidance, so this is a starter draft inferred from the venture (a young founder building a credibility-first B2B product for both businesses and student-age volunteers). Correct anything that reads wrong; the corrections are the real asset._
+_Last updated: 2026-07-07. STATUS: DIRECTIONALLY CONFIRMED — founder confirmed the good example below is "sort of how I would say it" (via voice input). Refine with real writing samples as they accumulate._
 
 ## Tone
 
