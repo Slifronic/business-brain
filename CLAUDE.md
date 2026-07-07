@@ -27,7 +27,7 @@ The system separates into three layers. Respect the boundaries.
 
 Before any task, load in this order:
 
-1. `context/agency.md` — always first (who we are)
+1. `context/company.md` — always first (who we are)
 2. `context/core_values.md` — always (how we operate; check work against it)
 3. `context/brand_voice.md` — for any content creation
 4. `clients/{name}/*.md` — for client-specific work
