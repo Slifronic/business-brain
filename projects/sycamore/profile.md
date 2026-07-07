@@ -8,7 +8,7 @@ A B2B volunteering platform that aims to become the standardized system for volu
 
 ## Stage
 
-Idea / pre-launch. [PLACEHOLDER — confirm: does a dashboard prototype exist, or is the dashboard described below the planned design? "I have a dashboard that shows all this" was ambiguous in the voice dump.]
+Prototype idea (confirmed 2026-07-07). The dashboard described below is spec/pitch material, not a built product. Next milestone: "make it off the pitch into form" — turn the pitch into a working prototype.
 
 ## The product
 
@@ -34,7 +34,7 @@ Idea / pre-launch. [PLACEHOLDER — confirm: does a dashboard prototype exist, o
 
 ## Open questions
 
-1. Does a prototype/dashboard exist today, or is it spec?
-2. Pricing and contract structure — undefined.
-3. Wedge market to start (local nonprofits? one school district? De Anza itself?)
-4. Who inside a corporation buys CSR tooling — HR, a CSR lead, comms?
+1. Pricing and contract structure — undefined.
+2. Wedge market to start (local nonprofits? one school district? De Anza itself?)
+3. Who inside a corporation buys CSR tooling — HR, a CSR lead, comms?
+4. What does "into form" look like first — clickable mockup, real web app, or pilot with one nonprofit?
