@@ -2,7 +2,7 @@
 
 ## What this workflow is
 
-Turns a raw brain dump from Bryan (voice transcript, typed stream-of-consciousness, or pasted notes) into properly filed second-brain content: updated context/project files, dated brain notes, and INDEX.md entries. Use whenever Bryan shares unstructured thoughts about himself, a project, a decision, or a lesson. This is the intake valve for the whole system.
+Turns a raw brain dump from Bryant (voice transcript, typed stream-of-consciousness, or pasted notes) into properly filed second-brain content: updated context/project files, dated brain notes, and INDEX.md entries. Use whenever Bryant shares unstructured thoughts about himself, a project, a decision, or a lesson. This is the intake valve for the whole system.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Turns a raw brain dump from Bryan (voice transcript, typed stream-of-consciousne
 |---|---|---|
 | Dump text | Yes | The raw transcript or typed dump |
 | Source type | Yes | Voice or typed — voice gets the mishear treatment (see Step 2) |
-| Topic hint | No | Which project/area it concerns, if Bryan says |
+| Topic hint | No | Which project/area it concerns, if Bryant says |
 
 ## Process
 
@@ -30,8 +30,8 @@ Voice transcripts mishear proper nouns. Do not silently "fix" them — resolve o
 
 ### Step 3: Sort the content into layers
 Each fact goes to exactly one home:
-- About Bryan (background, involvements, results) → `context/owner.md`
-- How Bryan sounds / operates → `context/brand_voice.md` / `context/core_values.md`
+- About Bryant (background, involvements, results) → `context/owner.md`
+- How Bryant sounds / operates → `context/brand_voice.md` / `context/core_values.md`
 - Project facts (product, buyers, positioning) → `projects/{name}/profile.md`
 - A decision with reasoning → `brain/decisions/YYYY-MM-DD_slug.md` ("We decided X because Y" + implication)
 - Durable reference facts → `brain/references/`
@@ -53,7 +53,7 @@ One line per new note, under the right category.
 `python3 execution/check_brain_index.py` — verifies filename conventions and that every note is indexed.
 
 ### Step 7: Report back and commit
-Tell Bryan: what was filed where, what placeholders need his answer (as numbered questions), and what was inferred vs. stated. Commit with a message summarizing the dump's content.
+Tell Bryant: what was filed where, what placeholders need his answer (as numbered questions), and what was inferred vs. stated. Commit with a message summarizing the dump's content.
 
 ## Quality gates
 
@@ -61,11 +61,11 @@ Tell Bryan: what was filed where, what placeholders need his answer (as numbered
 - [ ] Zero invented facts: every claim traces to the dump or an existing file
 - [ ] Every unresolved proper noun or ambiguity carries a `[PLACEHOLDER]`
 - [ ] Decisions captured with reasoning attached, not just the outcome
-- [ ] Open questions surfaced to Bryan as a numbered list, not buried in files
+- [ ] Open questions surfaced to Bryant as a numbered list, not buried in files
 
 ## Edge cases
 
-- Dump contradicts an existing file → the new dump usually wins (it is newer), but flag the change to Bryan explicitly and keep the old value in the git history.
+- Dump contradicts an existing file → the new dump usually wins (it is newer), but flag the change to Bryant explicitly and keep the old value in the git history.
 - Dump mentions a new project → create `projects/{name}/profile.md` with what was said; ask before assuming it is a commitment (it may belong in `brain/ideas/`).
 - Dump is ambiguous about whether something exists or is planned (e.g., "I have a dashboard") → record as planned/spec and add a placeholder asking which it is.
 - Tiny dump (one fact) → skip ceremony; file the one fact, update INDEX if a note was created, done.

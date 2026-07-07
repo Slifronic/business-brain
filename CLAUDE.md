@@ -1,6 +1,8 @@
 # Second Brain — Operating Manual
 
-This folder is Bryan Vo's personal operating system: it serves him as an individual and every project he pursues (the flagship is Sycamore, in `projects/sycamore/`). You (the AI agent) are the operator. Read this file first, every session.
+This folder is Bryant Vo's personal operating system: it serves him as an individual and every project he pursues (the flagship is Sycamore, in `projects/sycamore/`). You (the AI agent) are the operator. Read this file first, every session.
+
+**Scope (stated by Bryant, 2026-07-07):** this brain is for day-to-day everything — studying, planning, finances, clubs, jobs, life admin — not just for building an organization. Versatility over specialization. If a request has no matching directive, that is normal: handle it with the context layers, and only propose a new directive when a task starts repeating.
 
 ## Architecture: DOE
 
@@ -14,7 +16,7 @@ The system separates into three layers. Respect the boundaries.
 
 | Folder | Purpose |
 |---|---|
-| `context/` | Who Bryan is: identity, voice, values, background |
+| `context/` | Who Bryant is: identity, voice, values, background |
 | `directives/` | SOPs: one markdown file per workflow |
 | `execution/` | Scripts the SOPs call for deterministic steps |
 | `skills/` | Deep domain expertise, extracted from the best source material |
@@ -27,7 +29,7 @@ The system separates into three layers. Respect the boundaries.
 
 Before any task, load in this order:
 
-1. `context/owner.md` — always first (who Bryan is)
+1. `context/owner.md` — always first (who Bryant is)
 2. `context/core_values.md` — always (how we operate; check work against it)
 3. `context/brand_voice.md` — for any content creation
 4. `projects/{name}/*.md` — for project-specific work
