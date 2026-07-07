@@ -1,0 +1,4 @@
+.env
+.tmp/
+.obsidian/
+.DS_Store
